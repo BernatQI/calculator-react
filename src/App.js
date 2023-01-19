@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import BernatQiLogo from './img/bernatqi-logo.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='bernatqi-logo-container'>
+        <img
+          src={BernatQiLogo}
+          className='bernatqi-logo'
+          alt='Logo BernatQi' />
+        <div className='calculator-container'>
+
+        </div>
+      </div>
     </div>
   );
 }
